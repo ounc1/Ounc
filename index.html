@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مجوهرات أونصة - أسعار الذهب</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header container">
+    <h1>مجوهرات أونصة</h1>
+    <p>أسعار الذهب المباشرة بالدينار الكويتي</p>
+    <button id="toggleTheme">الوضع الليلي</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>الأسعار الآن</h2>
+      <p>آخر تحديث: <span id="lastUpdated">—</span></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>العيار</th>
+              <th>السعر (KWD)</th>
+            </tr>
+          </thead>
+          <tbody id="pricesBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <small>© <span id="year"></span> مجوهرات أونصة</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
